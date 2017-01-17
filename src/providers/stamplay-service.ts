@@ -22,9 +22,9 @@ export class StamplayService {
    const headers: Headers = new Headers();
    
    headers.append('Content-Type', 'application/json');
-  //  headers.append('x-stamplay-jwt' ,'ADD_USER_KEY');
+  //  headers.append('x-stamplay-jwt' ,'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcHBJZCI6InR1cGVkaWRvIiwiYWRtaW4iOm51bGwsInR5cGUiOiJ1c2VyIiwidXNlciI6IjU4Nzg0NmFhODg0YjM3MjEwODg0YjQ2NSIsImFwcERvbWFpbiI6InR1cGVkaWRvLnN0YW1wbGF5YXBwLmNvbSIsImlhdCI6MTQ4NDI4NTY3NywiZXhwIjoxNDg0Mjg3NDc3LCJqdGkiOiJTbEJsRDFJOGwifQ.mC0814nTWXo95PnSzaEpiXPrS620WTMLsujHIle2ibY');
   //  headers.append( 'accept', 'application/json' );
-   
+  
    return { headers: headers };
   }
 

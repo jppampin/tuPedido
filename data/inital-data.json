@@ -1,0 +1,21 @@
+{
+    "providers" :
+[
+    {
+        "name" : "Capriccio",
+        "products" : [
+            { "name" : "Matambrito de Cerdo con papas cuna"},
+            { "name" : "Salmon Rosado con ensalada verde"}
+        ],
+        "orders": []
+    },
+    {
+        "name" : "La casa de la Nona",
+        "products" : [
+            { "name" : "Empanada el Nono"},
+            { "name" : "Empanada carne cortada a cuchillo"}
+        ],
+        "orders" : []
+    }
+]
+}
