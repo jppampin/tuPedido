@@ -3,6 +3,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
+import { ProviderPage } from '../pages/provider/provider';
 import { StamplayService } from '../providers/stamplay-service';
 import { FirebaseService } from '../providers/firebase-service';
 import { AngularFireModule, AuthProviders, AuthMethods } from 'angularfire2'
@@ -25,7 +26,8 @@ const myFirebaseAuthConfig = {
   declarations: [
     MyApp,
     Page1,
-    Page2
+    Page2,
+    ProviderPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -35,7 +37,8 @@ const myFirebaseAuthConfig = {
   entryComponents: [
     MyApp,
     Page1,
-    Page2
+    Page2,
+    ProviderPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, StamplayService, FirebaseService]
 })
